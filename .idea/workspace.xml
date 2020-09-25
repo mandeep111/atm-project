@@ -22,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc1679cc-c638-4d18-bbe0-7a86343c65a8" name="Default Changelist" comment="" />
+    <list default="true" id="fc1679cc-c638-4d18-bbe0-7a86343c65a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/progressoft/induction/atm/AtmIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/progressoft/induction/atm/AtmIMPL.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +50,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1hrQ2e4qWjgkifE2SY59TzSbRIx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,7 +66,7 @@
       <recent name="com.progressoft.induction.atm" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ATMTest.givenAllFundsInAccountAreWithdrwan_whenWithdraw_shouldThrowException">
+  <component name="RunManager" selected="JUnit.ATMTest.givenValidAccountNumber_whenWithdrawAmountLargerThanTheAccountBalance_thenShouldThrowException">
     <configuration name="ATMTest.givenAccountNumberThatDoesNotExist_whenWithdraw_thenShouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="atm" />
       <extension name="coverage">
@@ -144,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ATMTest.givenValidAccountNumber_whenWithdrawAmountLargerThanTheAccountBalance_thenShouldThrowException" />
+        <item itemvalue="JUnit.ATMTest.givenAccountNumberThatDoesNotExist_whenWithdraw_thenShouldThrowException" />
         <item itemvalue="JUnit.ATMTest.givenAllFundsInAccountAreWithdrwan_whenWithdraw_shouldThrowException" />
         <item itemvalue="JUnit.ATMTest.whenWithdraw_thenSumOfReceivedBanknotesShouldEqualRequestedAmount" />
         <item itemvalue="JUnit.ATMTest.whenWithdrawAmountLargerThanWhatInMachine_thenShouldThrowException" />
-        <item itemvalue="JUnit.ATMTest.givenValidAccountNumber_whenWithdrawAmountLargerThanTheAccountBalance_thenShouldThrowException" />
-        <item itemvalue="JUnit.ATMTest.givenAccountNumberThatDoesNotExist_whenWithdraw_thenShouldThrowException" />
       </list>
     </recent_temporary>
   </component>
@@ -196,26 +201,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600767840492" />
-    <state x="561" y="262" key="Github.ShareDialog" timestamp="1601000984614">
+    <state x="561" y="262" key="Github.ShareDialog" timestamp="1601002111103">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="561" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1601000984614" />
-    <state width="1323" height="503" key="GridCell.Tab.0.bottom" timestamp="1601001011608">
+    <state x="561" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1601002111103" />
+    <state x="426" y="62" key="Github.UntrackedFilesDialog" timestamp="1601002134257">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="503" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601001011608" />
-    <state width="1323" height="503" key="GridCell.Tab.0.center" timestamp="1601001011608">
+    <state x="426" y="62" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601002134257" />
+    <state width="1323" height="503" key="GridCell.Tab.0.bottom" timestamp="1601006481465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="503" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601001011608" />
-    <state width="1323" height="503" key="GridCell.Tab.0.left" timestamp="1601001011608">
+    <state width="1323" height="503" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601006481465" />
+    <state width="1323" height="503" key="GridCell.Tab.0.center" timestamp="1601006481465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="503" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601001011608" />
-    <state width="1323" height="503" key="GridCell.Tab.0.right" timestamp="1601001011608">
+    <state width="1323" height="503" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601006481465" />
+    <state width="1323" height="503" key="GridCell.Tab.0.left" timestamp="1601006481465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="503" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601001011608" />
+    <state width="1323" height="503" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601006481465" />
+    <state width="1323" height="503" key="GridCell.Tab.0.right" timestamp="1601006481465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="503" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601006481465" />
     <state x="65" y="0" key="new project wizard" timestamp="1600935604467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

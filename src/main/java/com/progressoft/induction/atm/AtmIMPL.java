@@ -43,32 +43,31 @@ public class AtmIMPL implements ATM{
             int amount_to_withdraw = amount.intValue();
 
             if (amount_to_withdraw % 5 ==0) {
-                int collected_cash = 0;
                 if (amount_to_withdraw < total_cash) {
-                    while (collected_cash != amount_to_withdraw) {
-                        if((collected_cash + 50) <= amount_to_withdraw && fifty !=0) {
+                    while (amount_to_withdraw != 0) {
+                        if(amount_to_withdraw >= 50 && fifty !=0) {
                             notes.add(Banknote.FIFTY_JOD);
                             fifty -= 1;
                             note_count[0]++;
-                            collected_cash += 50;
+                            amount_to_withdraw -= 50;
                         }
-                        if((collected_cash + 20) <= amount_to_withdraw && twenty !=0) {
+                        if(amount_to_withdraw >= 20 && twenty !=0) {
                             notes.add(Banknote.TWENTY_JOD);
                             twenty -= 1;
                             note_count[1]++;
-                            collected_cash += 20;
+                            amount_to_withdraw -= 20;
                         }
-                        if((collected_cash + 10) <= amount_to_withdraw && ten !=0) {
+                        if(amount_to_withdraw >= 10 && ten !=0) {
                             notes.add(Banknote.TEN_JOD);
                             ten -= 1;
                             note_count[2]++;
-                            collected_cash += 10;
+                            amount_to_withdraw -= 10;
                         }
-                        if((collected_cash + 5) <= amount_to_withdraw && five !=0) {
+                        if(amount_to_withdraw >= 5 && five !=0) {
                             notes.add(Banknote.FIVE_JOD);
                             five -= 1;
                             note_count[3]++;
-                            collected_cash += 5;
+                            amount_to_withdraw -= 5;
                         }
                     }
                 } else{
